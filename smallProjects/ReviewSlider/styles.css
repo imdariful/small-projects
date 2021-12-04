@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: #151515;
+    color: #e5e5e5;
+    text-align: center;
+    padding: 10px 20px;
+}
+footer a{
+    text-decoration: none;
+    color: #e5e5e5;
+}
