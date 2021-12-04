@@ -1,6 +1,6 @@
 # small-projects
 
-## [2 player Dice Roll](smallProjects/2 Player Diece Roll/)
+## [2 player Dice Roll](./smallProjects/2 Player Diece Roll/)
 Used Angela Yu's starter template and complete the project in vanilla js.
 > Go to project => [2 player Dice Roll](smallProjects/2 Player Diece Roll/)
 ![2 player Dice Roll ScreenShot]
