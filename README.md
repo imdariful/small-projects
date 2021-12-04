@@ -2,9 +2,8 @@
 
 ## [2 player Dice Roll](/smallProjects/2%20Player%20Diece%20Roll)
 Used Angela Yu's starter template and complete the project in vanilla js.
- Go to project => [2 player Dice Roll](/smallProjects/2 Player Diece Roll/)
-![2 player Dice Roll ScreenShot]
-(./screenshots/2playerdiceroll.png "2 player Dice Roll ScreenShot")
+
+![2 player Dice Roll ScreenShot](./screenshots/2playerdiceroll.png "2 player Dice Roll ScreenShot")
 ## [Drum Kit](smallProjects/Drum%20Kit)
 Used Angela Yu's starter template and complete the project in vanilla js.
 ## Color Flipper
