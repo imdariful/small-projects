@@ -1,7 +1,8 @@
+// Selecting DOM elements
 const joke = document.querySelector("#joke");
 const button = document.querySelector("button");
 const h1 = document.querySelector("#h1");
-
+// Functions
 const getDadJoke = async () => {
   try {
     const config = {
@@ -15,7 +16,6 @@ const getDadJoke = async () => {
     return "No Jokes Available Sorry 😢";
   }
 };
-
 const addNewJoke = async () => {
   const jokeText = await getDadJoke();
   h1.innerText = jokeText;
@@ -23,5 +23,5 @@ const addNewJoke = async () => {
   newLi.append(jokeText);
   joke.append(newLi);
 };
-
+// Event Listener
 button.addEventListener("click", addNewJoke);
