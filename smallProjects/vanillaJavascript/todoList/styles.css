@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    color: #e5e5e5;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+}
+header{
+    font-size: 1.5rem;
+}
+header,
+form{
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+form input,
+form button{
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: #e5e5e5;
+    outline: none;
+}
+
+form button{
+    
+    color: #fda085;
+    background-color: #e5e5e5;
+    cursor: pointer;
+    transition: ease-in-out .5s;
+}
+form button:hover{
+    color: #e5e5e5;
+    background-color: #fda085;
+    transition: ease-in-out .5s;
+}
+.todo {
+    background-color: hsl(0, 0%, 100%);
+    font-size: 1.5rem;
+    color: #151515;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s;
+}
+.todo-item {
+    flex: 1;
+    padding: 0rem 0.5rem;
+}
+.complete-button,
+.delete-button{
+    background-color: hsl(115, 59%, 59%);
+    color: #e5e5e5;
+    border: none;
+    font-size: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+.delete-button{
+    background-color: hsl(0, 79%, 50%);
+
+}
+.fa-trash,
+.fa-check{
+    pointer-events: none;
+}
+.completed{
+    text-decoration: line-through;
+    opacity: 0.5;
+    transition: all 0.5s;
+}
+
+.dropped{
+    transform: translateY(5rem) rotateZ(25deg);
+    opacity: 0;
+}
